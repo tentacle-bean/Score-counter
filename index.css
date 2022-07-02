@@ -1,0 +1,82 @@
+
+body {
+    margin: 0;
+    background-color: #30343f;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    height: 500px;
+}
+
+.halves {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 350px;
+}
+
+.names {
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 400;
+    color: #ffd9da;
+    text-shadow: 3px 3px #89023e, 0 0 10px #ea638c, 0 0 10px #ea638c;
+    text-align: center;
+    font-size: 60px;
+    margin: 0;
+}
+
+#guest-name {
+    color: #91e5f6;
+    text-shadow: 3px 3px #133c55, 0 0 10px #59a5d8, 0 0 10px #59a5d8;
+}
+
+.score-section {
+    color: #ffd9da;
+    text-shadow: 0 0 10px #ea638c;
+    margin: 0 0 15px 0;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    font-family: "CursedTimer";
+    background-color: #1b2021;
+    width: 155px;
+    height: 120px;
+    font-size: 90px;
+    font-weight: 400;
+    border-radius: 5px;
+}
+
+#score-guest{
+    color: #91e5f6;
+    text-shadow: 0 0 10px #59a5d8;
+}
+
+.button-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: "CursedTimer";
+    background: none;
+    padding: 7px 7px;
+}
+
+.button-home {
+    color: #FFD9DA;
+    text-shadow: 0 0 10px #EA638C;
+    border: 2px solid #EA638C;
+    box-shadow: 0 0 10px #EA638C;
+}
+
+.button-guest {
+    color: #91e5f6;
+    text-shadow: 0 0 10px #59a5d8;
+    border: 2px solid #59a5d8;
+    box-shadow: 0 0 10px #59a5d8;
+}
